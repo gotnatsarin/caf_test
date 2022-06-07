@@ -42,12 +42,12 @@ if (isset($_SESSION['loginId'])) {
           <div class="wrap-input100 validate-input" data-validate="กรุณากรอกชื่อผู้ใช้">
             <input class="input100" type="text" maxlength="255" id="username" name="username">
             <span class="focus-input100"></span>
-            <span class="label-input100">ชื่อผู้ใช้</span>
+            <span class="label-input100">Username</span>
           </div>
           <div class="wrap-input100 validate-input mb-4" data-validate="กรุณากรอกรหัสผ่าน">
             <input class="input100" type="password" maxlength="255" id="password" name="password">
             <span class="focus-input100"></span>
-            <span class="label-input100">รหัสผ่าน</span>
+            <span class="label-input100">Password</span>
           </div>
 
           <!-- <div class="flex-sb-m w-full p-t-3 p-b-32">
