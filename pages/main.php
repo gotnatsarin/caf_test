@@ -18,31 +18,32 @@ require('query/checkLogin.php');
 <body>
 <div class="container">
   </br></br>
-  <div class="row">
+  <!-- <div class="row">
     <div class="text-center mb-4">
       <img src="../assets/images/logo.png" class="rounded" alt="..." height="150px">
     </div>
-  </div>
+  </div> -->
   <br>
   <div class="row">
     <div class="col-2"></div>
-    <div class="col-8">
-      <div class="card text-center">
-        <div class="card-header">
+    <div class="col-8 text-center">
+      <!-- <div class="card text-center"> -->
+        <!-- <div class="card-header">
           Zombie
-        </div>
-        <div class="card-body">
+        </div> -->
+        <!-- <div class="card-body"> -->
           <div class="text-center mb-3">
             <img src="../assets/images/logo2.png" class="rounded" alt="..." height="150px">
           </div>
           <div class="">
             <a class="btn btn-primary" href="https://www.caf.co.th/index.html"><i class="fa fa-sign-in" aria-hidden="true"></i> ไปยังเว็บไซต์หลัก</a>
             <a class="btn btn-danger" href="query/logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> ออกจากระบบ</a>
-          </div> 
-        </div>
-          <div class="card-footer text-muted ">
-            <p>Copyrights &copy; 2022.  by IT_Group & team</p>
           </div>
+            
+          <!-- </div> -->
+          <!-- <div class="card-footer text-muted ">
+            <p>Copyrights &copy; 2022.  by IT_Group & team</p>
+          </div> -->
         </div>
       </div>
     </div>
