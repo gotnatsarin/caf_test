@@ -50,14 +50,6 @@ if (isset($_SESSION['loginId'])) {
             <span class="label-input100">Password</span>
           </div>
 
-          <!-- <div class="flex-sb-m w-full p-t-3 p-b-32">
-            <div class="contact100-form-checkbox">
-              <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember">
-              <label class="label-checkbox100" for="ckb1">
-                จดจำฉัน
-              </label>
-            </div>
-          </div> -->
           <div class="container-login100-form-btn mt-4">
             <button class="login100-form-btn">
               เข้าสู่ระบบ

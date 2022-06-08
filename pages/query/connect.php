@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root","","inventory_management");
+$conn = mysqli_connect("localhost","root","","zombie");
 
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
