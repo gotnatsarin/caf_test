@@ -16,7 +16,7 @@ require('query/checkLogin.php');
 </head>
 
 <body>
-<div class="container">
+<!-- <div class="container"> -->
   </br></br>
   <!-- <div class="row">
     <div class="text-center mb-4">
@@ -33,11 +33,11 @@ require('query/checkLogin.php');
         </div> -->
         <!-- <div class="card-body"> -->
           <div class="text-center mb-3">
-            <img src="../assets/images/logo2.png" class="rounded" alt="..." height="150px">
+            <img src="../assets/images/logo2.png" class="img-fluid" alt="..." height="150px" width="auto">
           </div>
-          <div class="">
-            <a class="btn btn-primary" href="https://www.caf.co.th/index.html"><i class="fa fa-sign-in" aria-hidden="true"></i> ไปยังเว็บไซต์หลัก</a>
-            <a class="btn btn-danger" href="query/logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> ออกจากระบบ</a>
+           <div class="mt-2">
+            <a class="btn btn-primary mt-2" href="https://www.caf.co.th/index.html"><i class="fa fa-sign-in" aria-hidden="true"></i> ไปยังเว็บไซต์หลัก</a>
+            <a class="btn btn-danger mt-2" href="query/logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> ออกจากระบบ</a>
           </div>
             
           <!-- </div> -->
@@ -45,9 +45,10 @@ require('query/checkLogin.php');
             <p>Copyrights &copy; 2022.  by IT_Group & team</p>
           </div> -->
         </div>
+        <div class="col-2"></div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
     
 </body>
 </html>
